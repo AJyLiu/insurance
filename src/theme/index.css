@@ -1,0 +1,88 @@
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body,
+html {
+  font-family: Roboto-Regular, -apple-system, Sans-Serif;
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+}
+
+body {
+  font-size: 16px;
+  line-height: 1.5;
+  box-sizing: border-box;
+  -webkit-user-select: none;
+  color: #333;
+  background-color: #fff;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+}
+
+button {
+  border: 0;
+  background: 0 0;
+  -webkit-appearance: none;
+}
+
+a {
+  text-decoration: none;
+  -webkit-touch-callout: none;
+}
+
+:focus {
+  outline: 0;
+  -webkit-tap-highlight-color: transparent;
+}
+
+h1 {
+  font-size: .35rem;
+  display: -webkit-box;
+  overflow: hidden;
+  margin: 0 0 .3rem;
+  padding: .3rem 0 0;
+  text-overflow: ellipsis;
+  -ms-text-overflow: ellipsis;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical
+}
+
+h2 {
+  font-size: .28rem;
+  line-height: 1.3;
+  margin: 0;
+  padding: 0;
+}
+
+h3 {
+  font-size: .3rem;
+  margin: 0;
+  padding: .3rem;
+  text-align: center;
+}
+
+h4 {
+  font-size: .26rem;
+  display: -webkit-box;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  text-overflow: ellipsis;
+  -ms-text-overflow: ellipsis;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+p {
+  font-size: .26rem;
+  margin: 0;
+  padding: 0;
+}
+.yd-actionsheet-item{
+  border-bottom: solid 0.01rem #e5e5e5;
+}
